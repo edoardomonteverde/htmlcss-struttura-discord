@@ -1,0 +1,319 @@
+/* #region Common */
+
+* {
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+/* #endregion Common */
+
+/* #region Debug */
+.debug #site_header {
+
+   background: #ddddf5;
+
+}
+
+.debug #site_header nav {
+
+    background: #acd86d;
+    
+}
+
+.debug .logo,
+.debug .menu,
+.debug .sign_in {
+
+    border:1px dashed black;
+
+}
+
+.debug .jumbotron {
+
+    height:400px;
+    background: #5205ed;
+
+}
+
+.debug .jumbotron .container {
+
+    height:350px;
+    background: #c17dbd;
+
+}
+
+
+.debug .server {
+
+    height:400px;
+    
+}
+
+
+[class^="col-"] {
+
+    height: 350px;
+    background: #03f594;
+    border:1px dashed black;
+
+}
+
+.debug .channel{
+
+    height: 400px;
+    background:#d3cbcb;
+
+}
+
+.debug .community {
+
+    height: 400px;
+
+}
+
+
+.debug .media {
+
+    height: 800px;
+    background: #d3cbcb;
+
+}
+
+.debug .media .container {
+
+    height: 700px;
+    background: #037816;
+}
+
+.debug footer{
+
+    height: 492px;
+    background: #000;
+}
+
+.debug .end_footer .logo {
+
+    background: #a79a9a;
+}
+
+.debug footer .end_footer .sign_in {
+
+    background: #a79a9a;
+}
+
+.debug footer .container {
+
+    background:  #d8cfcf;
+}
+
+
+/* #endregion Debug */
+
+/* #region Utility */
+
+.container{
+
+    width: 80%;
+    margin:auto;
+
+}
+
+
+
+.d_flex {
+
+    display:flex;
+
+}
+
+
+.align_items {
+
+    align-items: center;
+
+}
+
+
+/* #region col- */
+
+.col-2{
+     width:calc(2/12*100%);
+}
+
+.col-3{
+    width:calc(3/12*100%);
+}
+
+.col-4{
+    width:calc(4/12*100%);
+}
+
+.col-5{
+    width:calc(5/12*100%);
+}
+
+.col-6{
+    width:calc(6/12*100%);
+}
+
+.col-7{
+    width:calc(7/12*100%);
+}
+
+.col-8{
+    width:calc(8/12*100%);
+}
+
+.col-9{
+    width:calc(9/12*100%);
+}
+
+.col-10{
+    width:calc(10/12*100%);
+}
+
+.col-11{
+    width:calc(11/12*100%);
+}
+
+.col-12{
+    width:calc(12/12*100%);
+}
+
+/* #endregion col- */
+
+/* #endregion Utility */
+
+/* #region Header */
+
+#site_header{
+
+    padding: 0.5rem 0;
+}
+
+#site_header nav .logo,
+#site_header nav .sign_in {
+
+    flex-grow: 1;
+}
+
+#site_header nav .menu {
+
+    flex-grow:2;
+    text-align:center;
+}
+
+#site_header nav .menu li {
+
+    display: inline-block;
+    padding-left:0.5rem;
+    
+}
+
+.logo{
+
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    padding-left:0.5rem;
+
+}
+
+.menu {
+
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+
+}
+
+.sign_in {
+
+    text-align: end;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    padding-right:0.5rem;
+
+}
+
+/* #endregion Header */
+
+/* #region Main */
+
+.jumbotron{
+
+    padding:1.5rem 10rem;
+
+}
+
+.server, .channel, .community {
+
+    padding:1.5rem 0;
+
+} 
+
+.media {
+
+    padding: 3rem 0;
+}
+
+/* #endregion Main */
+
+/* #region Footer */
+
+.nav_footer{
+
+    padding: 1.5rem 0;
+}
+
+.end_footer{ 
+
+    padding:1.5rem 0rem 0rem;
+
+}
+
+.end_footer .container {
+
+    justify-content: space-between;
+    padding:1rem 0;
+}
+    
+.end_footer .logo {
+
+    text-align: center;
+    padding: 0.5rem;
+} 
+
+.end_footer .sign_in {
+
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.white_row{
+
+    width:100%;
+    height:1px;
+    background: #fffefe;
+}
+
+
+/* #endregion Footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
